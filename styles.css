@@ -313,3 +313,191 @@ ul a {
     padding-top: 5px;
    
 }
+
+
+
+/* RESPONSIVE -. tablet*/
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px 10px;
+        gap: 8px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-left: 0;
+        order: 3;
+    }
+
+    .navlogo {
+        margin-right: 10px;
+    }
+
+    .flag, .borderusa {
+        display: none;
+    }
+
+    .panel-ops {
+        display: none;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .foot-panel2 {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .foot-panel2 ul {
+        width: 45%;
+    }
+}
+
+
+
+
+ /*  MOBILE responsive */
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px 10px;
+        gap: 6px;
+        align-items: center;
+    }
+
+    
+    .navlogo {
+        width: 80px;
+        height: 40px;
+        margin-right: auto;
+        order: 1;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .nav-cart {
+        order: 2;
+        margin-left: auto;
+    }
+
+    
+    .nav-search {
+        order: 3;
+        width: 100%;
+        margin-left: 0;
+        height: 40px;
+    }
+
+    
+    .nav-address {
+        order: 4;
+        width: 100%;
+    }
+
+    
+    .nav-signin,
+    .nav-return,
+    .borderusa {
+        display: none;
+    }
+
+    
+    .panel {
+        height: auto;
+        padding: 6px 10px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .panel-all {
+        margin-left: 0;
+    }
+
+    .panel-ops {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .panel-ops p {
+        display: inline-block;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    
+    .hero-section {
+        height: 150px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        font-size: 11px;
+        width: 95%;
+        text-align: center;
+        height: auto;
+        padding: 6px;
+    }
+
+    
+    .shop-section {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .foot-panel2 ul {
+        width: 100%;
+    }
+
+    .foot-panel3 .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .pages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding-top: 15px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        padding: 8px;
+    }
+}
+
+
